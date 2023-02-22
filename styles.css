@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+:root {
+  --primary: rgba(25, 41, 124, 1);
+  --secondary: rgba(88, 84, 129, 1);
+  --dark: rgba(161, 134, 127, 1);
+  --light: rgba(196, 155, 187, 1);
+  --lighter: rgba(209, 188, 227, 1);
+  --white: white;
+}
+
+/* .container {
+  border:2px dashed red;
+  border-top: 5px solid black;
+  border-right:10px;
+   font-size: 1.5rem;
+  margin:1.5em;
+  padding: 1.5em 2em 3em 4em;
+} */
+
+header {
+  display: flex;
+  align-items: center;
+}
+h1 {
+  border: 1px dashed var(--white);
+  width: 400px;
+  padding: 0.5em;
+  
+}
+
+nav {
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+nav ul li {
+list-style-type: none;
+cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: rgb(247, 245, 245);
+}
+
+nav a {
+  font-size: 30px;
+  padding: 10px;
+}
+
+body {
+  font-size: 2rem;
+  line-height: 1.5;
+  background: var(--white);
+  color: var(--primary);
+}
+
+/* p {
+  color: var(--white);
+  border: 2px dashed red;
+} */
+
+.card {
+  background-color: var(--lighter);
+  margin: 25px 0px;
+  border: 1px solid var(--light);
+    cursor: pointer;
+}
+
+.card:hover {
+  font-size: 38px;
+}
